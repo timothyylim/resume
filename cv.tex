@@ -1,0 +1,67 @@
+% Exemple de CV utilisant la classe moderncv
+% Style classic en bleu
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\firstname{Timothy}
+\familyname{Lim}
+\title{}              
+
+
+% \address{Flat 28 110 Kensington Park Road }{London UK, W112PJ}    
+\email{timothy\_lim@outlook.com}                      
+% \homepage{www.madrzejewski.com}
+% \mobile{06 27 62 55 41} 
+\homepage{www.timothylim.info}
+\extrainfo{Github: timothyylim}
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2015 -- 2016}{Master of Science in Computing Science}{Imperial College}{London, United Kingdom}{}{Expected Graduation: October 2016.}
+\cventry{2011 -- 2015}{Bachelor of Arts in Economics}{Brown University}{Providence, United States of America}{3.6/4.0}{Coursework: Micro and Macro Economics, Behavioural Economics, Econometrics, Intro to Object Oriented Programming, Algorithms and Data Structures.\newline{}Awards: Shelby Davis Scholarship.  }
+\cventry{2009 -- 2011}{International Baccalaureate}{United World College of the Atlantic}{Wales, United Kingdom}{}{}
+
+\section{Experience}
+\cventry{September 2015\\-  Present}{Data Engineer}{PostoExpress}{Kuala Lumpur, Malaysia}{}{Leading the processing and analysis of data at a high-growth startup. Building out infrastructure and real-time
+predictive models to drive insights as we scale.\newline{}}
+
+\cventry{September 2014\\-  December 2014}{Computer Science Teaching Assistant}{Brown University}{Providence, United States of America}{}{Delivered projects used to teach a computer science course of 300 students. Led lab sessions of 20 undergraduates and assisted with office hours and exam grading throughout the semester.\newline{}}
+
+\cventry{July 2014\\-  September 2014}{Group API Intern}{Axiata Digital Services}{Kuala Lumpur, Malaysia}{}{Developed and presented an Android tablet application that was featured in the Haffenreffer Museum of Anthropology.\newline{}}
+
+\cventry{May 2012\\-  April 2012}{Labratory Assitant}{Center For Human Genetic Research, Massachusetts General Hospital}{Boston, United States of America}{}{Assisted with leading research into defining proteins that regulate tumor growth.\newline{}}
+
+
+
+\section{Projects}
+\cvitem{Haze Watch}{An open source project to provide localised air pollution readings for Malaysian cities via an automated twitter feed.}
+\cvitem{NYC Subway Analysis}{A statistical analysis of ridership on the New York City Metro.The project is split into two notebooks, the first outlining exploration of the dataset and the second, the analysis.}
+
+\section{Skills}
+\cvitem{Languages}{English, Malay, Norwegian (conversational), Swedish (basic)}
+\cvitem{Programming Languages}{
+Fluent in: Java, C++, Python, SQL \newline{}
+Familiar with: PHP, Javascript 
+}
+
+% \cvitem{Frameworks}{D3.js, Java Swing}
+\cvitem{Statistical Packages}{Stata, R, SPSS, scipy}
+% \cvlanguage{Anglais}{lu, Ã©crit, parlÃ© -- Toeic 965 / 990}{}
+
+
+\section{Interests}
+\cvitem{Literature}{Happy to talk about anything from Dune to Moby Dick.}
+\cvitem{Football}{A reluctant lover of the beautiful game.}
+% \cvitem{Entreprenariat}{Passive Income, The 4 hour work week}
+%\cvitem{PlongÃ©e}{DiplÃ´me de niveau 1}
+
+\end{document}
+
+% Source: http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
